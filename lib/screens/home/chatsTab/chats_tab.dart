@@ -42,7 +42,7 @@ class ChatsTab extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
         height: double.infinity,
         width: double.infinity,
         child: ListView.builder(
@@ -109,7 +109,7 @@ class ChatsTab extends StatelessWidget {
                                   Text(listOfDetails[index]['message'],
                                       style: TextStyle(
                                           color: Colors.grey.shade500,
-                                          fontSize: 12))
+                                          fontSize: 12.5))
                                 ],
                               )
                             ],

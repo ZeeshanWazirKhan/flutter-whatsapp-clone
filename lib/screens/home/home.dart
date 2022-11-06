@@ -1,4 +1,5 @@
 import 'package:appbar/screens/home/chatsTab/chats_tab.dart';
+import 'package:appbar/screens/home/statusTab/status_tab.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatelessWidget {
@@ -79,7 +80,7 @@ class Home extends StatelessWidget {
           body: TabBarView(children: [
             Container(),
             ChatsTab(),
-            Container(),
+            StatusTab(),
             Container(),
           ]),
         ),
