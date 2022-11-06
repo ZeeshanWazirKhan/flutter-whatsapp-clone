@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+// Flutter Whatsapp Clone
 
 class HomePage extends StatelessWidget {
   List<dynamic> listOfDetails = [
